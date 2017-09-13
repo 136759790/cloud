@@ -19,6 +19,6 @@ public class ServiceHiApp {
     String port;
     @GetMapping("/hi")
     public String home(String name){
-    	return "hello:->"+name;
+    	return "hello:"+name+"->"+port;
     }
 }
