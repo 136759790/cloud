@@ -50,5 +50,6 @@
   </build>
   <modules>
     <module>eureka</module>
+    <module>service-hi</module>
   </modules>
 </project>
