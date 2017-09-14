@@ -3,11 +3,15 @@ server:
 spring: 
   application:  
     name: service-config
-  cloud:	
-  	config:	
-  		server:	
-  			git:	
-  				uri:	https://github.com/136759790/
+  cloud:  
+    config:  
+      server:  
+         git:  
+              uri:  https://github.com/136759790/SpringCloudConfig/
+              searchPaths:  springcloud
+              username:  136759790@qq.com
+              password:  z138333?
+    label:  master
 eureka: 
   client: 
     serviceUrl: 
